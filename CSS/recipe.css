@@ -1,0 +1,64 @@
+body {
+  background-color: #737373;
+  margin: 20px;
+  padding: 20px;
+  font-family: Georgia; }
+
+footer {
+  background-color: #e5bddf; }
+
+h1 {
+  color: #956ab8; }
+
+h3 {
+  color: #e5bddf; }
+
+label {
+  color: #737373; }
+
+p {
+  color: #737373; }
+
+span {
+  color: #737373; }
+
+th {
+  color: #737373; }
+
+.h3 {
+  color: #956ab8; }
+
+#animal01 {
+  width: 30%; }
+
+#animal02 {
+  width: 30%; }
+
+#animal03 {
+  width: 30%; }
+
+#animal04 {
+  width: 50%; }
+
+#check-self {
+  color: #ff0077; }
+
+#columns {
+  color: #0080ff; }
+
+#ex {
+  color: #ff0077; }
+
+#navbar-bg {
+  background-color: #956ab8; }
+
+#navbar-brand {
+  color: #0080ff; }
+
+#second {
+  color: #72b87b; }
+
+#welcome {
+  color: #dbf8c7; }
+
+/*# sourceMappingURL=index_smartass.css.map */

@@ -1,0 +1,42 @@
+body {
+    background-color: #737373;
+    margin: 20px;
+    padding: 20px;
+    font-family: Georgia; }
+  
+  footer {
+    background-color: #c2e5bd; }
+  
+  h1 {
+    color: #35932f; }
+  
+  h3 {
+    color: #95dc8d; }
+  
+  label {
+    color: #555555; }
+  
+  p {
+    color: #555555; }
+  
+  span {
+    color: #555555; }
+  
+  th {
+    color: #555555; }
+  
+  #check-self {
+    color: #ff0077; }
+  
+  #columns {
+    color: #0080ff; }
+  
+  #navbar-bg {
+    background-color: #35932f; }
+  
+  #navbar-brand {
+    color: #95dc8d; }
+  
+  
+  /*# sourceMappingURL=index_smartass.css.map */
+  
