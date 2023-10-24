@@ -9,25 +9,127 @@
       <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
-  </head>
+      <script src="JS/zombies.js"></script>
+    </head>
   <body>
-      <nav id="navbar-bg" class="navbar navbar-expand-md navbar-dark">
-          <a id="navbar-brand" href="index.html">Home</a>
-          <!-- Toggler/collapsibe Button -->
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        
-          <!-- Navbar links -->
-          <div class="collapse navbar-collapse" id="collapsibleNavbar">
-          </div>
-        </nav>
-      <footer class="footer">
-        <div class="container">
-          <span>Copyright &copy; 2023
-          <a href="index.html">Annie's First Website</a> What is right or wrong, really?</span>
-        </div>
-      </footer>
+<!-- Sidebar (hidden by default) -->
+
+<div class="w3-main" style="margin-right:200px">
+<div class="w3-teal">
+  <button class="w3-button w3-teal w3-xlarge w3-right w3-hide-large" onclick="w3_open()">&#9776;</button>
+  <div class="w3-container">
+    <h2>My Page</h2>
+  </div>
+</div>
+
+</div>
+<!-- Top menu -->
+  
+<!-- !PAGE CONTENT! -->
+<div>
+  <button onclick="sepiaMode()">Sepiamode</button>
+  <button onclick="darkMode()">Darkmode</button>
+</div>
+<div class="w3-main w3-content" style="margin-top:100px">
+
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+    <div class="w3-quarter">
+      <img src="/w3images/sandwich.jpg" alt="Sandwich" style="width:100%">
+      <h3>The Perfect Sandwich, A Real NYC Classic</h3>
+      <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="/w3images/steak.jpg" alt="Steak" style="width:100%">
+      <h3>Let Me Tell You About This Steak</h3>
+      <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="/w3images/cherries.jpg" alt="Cherries" style="width:100%">
+      <h3>Cherries, interrupted</h3>
+      <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+      <p>What else?</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="/w3images/wine.jpg" alt="Pasta and Wine" style="width:100%">
+      <h3>Once Again, Robust Wine and Vegetable Pasta</h3>
+      <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+    </div>
+  </div>
+  
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center">
+    <div class="w3-quarter">
+      <img src="/w3images/popsicle.jpg" alt="Popsicle" style="width:100%">
+      <h3>All I Need Is a Popsicle</h3>
+      <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="/w3images/salmon.jpg" alt="Salmon" style="width:100%">
+      <h3>Salmon For Your Skin</h3>
+      <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="/w3images/sandwich.jpg" alt="Sandwich" style="width:100%">
+      <h3>The Perfect Sandwich, A Real Classic</h3>
+      <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="/w3images/croissant.jpg" alt="Croissant" style="width:100%">
+      <h3>Le French</h3>
+      <p>Lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+    </div>
+  </div>
+
+  <!-- Pagination -->
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
+      <a href="#" class="w3-bar-item w3-black w3-button">1</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+    </div>
+  </div>
+  
+  <hr id="about">
+  <!-- About Section -->
+  <div class="w3-container w3-padding-32 w3-center">  
+    <h1>About</h1><br>
+    <img src="Media/anniePFP.png" alt="Me" class="w3-image" style="display:block;margin:auto" height="250">
+    <div class="w3-padding-32">
+      <p>Annie is currently studying psychology in New York City. She is dating Liz, who works in cybersecurity and IT. They live together with a variety of stuffed animals and plants.</p>
+    </div>
+  </div>
+  <hr>
+  
+  <!-- Footer -->
+  <footer class="w3-row-padding w3-padding-32">
+
+      <h3>FOOTER</h3>
+      <p>Copyright 2023</p>
+      <ul class="w3-ul w3-hoverable">
+        <li class="w3-padding-16">
+          <img src="/w3images/workshop.jpg" class="w3-left w3-margin-right" style="width:50px">
+          <span class="w3-large">Lorem</span><br>
+          <span>Sed mattis nunc</span>
+        </li>
+        <li class="w3-padding-16">
+          <img src="/w3images/gondol.jpg" class="w3-left w3-margin-right" style="width:50px">
+          <span class="w3-large">Ipsum</span><br>
+          <span>Praes tinci sed</span>
+        </li> 
+      </ul>
+      <h3>TAGS</h3>
+      <p>
+        <span class="w3-tag w3-black w3-margin-bottom">Travel</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">New York</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Dinner</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Salmon</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">France</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Drinks</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Ideas</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Flavors</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Cuisine</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Chicken</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Dressing</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Fried</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Fish</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Duck</span>
+      </p>
+  </footer> 
       <script src="bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>

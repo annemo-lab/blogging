@@ -1,41 +1,56 @@
 body {
     background-color: #737373;
-    margin: 20px;
-    padding: 20px;
-    font-family: Georgia; }
+    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif}
   
-  footer {
-    background-color: #c2e5bd; }
+footer {
+  margin: 0px;
+  padding: 0px;
+  background-color: #c2e5bd; }
+
+div {
+  margin: 20px;
+}
   
-  h1 {
-    color: #35932f; }
+h1 {
+  color: #35932f;
+  text-align: center; }
   
-  h3 {
-    color: #95dc8d; }
+h3 {
+  color: #95dc8d; }
   
-  label {
-    color: #555555; }
+label {
+  margin: 20px;
+  color: #555555; }
   
-  p {
-    color: #555555; }
+p {
+  color: #606060; }
   
-  span {
-    color: #555555; }
+span {
+  color: #555555; }
   
-  th {
-    color: #555555; }
+th {
+  color: #555555; }
   
-  #check-self {
-    color: #ff0077; }
+.dark-mode {
+  background-color: rgb(17, 17, 17);
+  color: rgb(219, 219, 219);
+} 
+
+.sepia-mode {
+  background-color: rgb(244, 244, 226);
+  color: rgb(17, 17, 17);
+}
+#check-self {
+  color: #ff0077; }
   
-  #columns {
-    color: #0080ff; }
+#columns {
+  color: #0080ff; }
   
-  #navbar-bg {
-    background-color: #35932f; }
+#navbar-bg {
+  background-color: #35932f; }
   
-  #navbar-brand {
-    color: #95dc8d; }
+#navbar-brand {
+  color: #95dc8d; }
   
   
   /*# sourceMappingURL=index_smartass.css.map */
